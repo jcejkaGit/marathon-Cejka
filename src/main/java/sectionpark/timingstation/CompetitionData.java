@@ -24,4 +24,10 @@ public class CompetitionData {
     public ArrayList<Party> getParty(){
         return this.party;
     }
+    @Override
+    public String toString(){
+        String ausgabe ="";
+
+        return null;
+    }
 }

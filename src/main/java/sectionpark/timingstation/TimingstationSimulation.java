@@ -46,7 +46,7 @@ public class TimingstationSimulation {
 	
 	public TimingstationData getData( String inTimingstationID ) {
 		
-		TimingstationData data = genTimingStation(inTimingstationID, 5);
+		TimingstationData data = genTimingStation(inTimingstationID, 3);
 		
 		return data;
 		

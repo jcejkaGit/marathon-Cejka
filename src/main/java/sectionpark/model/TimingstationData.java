@@ -2,11 +2,12 @@ package sectionpark.model;
 
 import sectionpark.timingstation.CompetitionData;
 
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class TimingstationData {
-	
+
 	private String timingstationID;
 	private String timestamp;
 
@@ -76,7 +77,7 @@ public class TimingstationData {
 	 */
 	@Override
 	public String toString() {
-		String info = String.format("Timing Station Info: ID = %s, timestamp = %s, distance = %d", 
+		String info = String.format("Timing Station Info: ID = %s, timestamp = %s, distance = %f",
 			timingstationID, timestamp, distance );
 		return info;
 	}
